@@ -19,8 +19,8 @@ import java.lang.Exception
 
 class VoterInfoViewModel(private val dataSource: ElectionsLocalDataSource, application: Application) : ViewModel() {
 
-    private val _voterInfo = MutableLiveData<VoterInfoResponse>()
-    val voterInfo: LiveData<VoterInfoResponse>
+    private val _voterInfo = MutableLiveData<VoterInfoResponse?>()
+    val voterInfo: LiveData<VoterInfoResponse?>
         get() = _voterInfo
 
     private val followText = application.getString(R.string.follow_election)

@@ -15,8 +15,8 @@
 
         <ImageView
             android:id="@+id/representative_photo"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
+            android:layout_width="@dimen/size_img_icon"
+            android:layout_height="@dimen/size_img_icon"
             android:layout_marginStart="@dimen/small_margin"
             android:layout_marginTop="@dimen/normal_margin"
             android:layout_marginBottom="@dimen/normal_margin"
@@ -64,8 +64,8 @@
 
         <ImageView
             android:id="@+id/twitter_icon"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="@dimen/size_icon"
+            android:layout_height="@dimen/size_icon"
             android:layout_marginEnd="@dimen/small_margin"
             android:layout_marginBottom="@dimen/small_margin"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -75,8 +75,8 @@
 
         <ImageView
             android:id="@+id/facebook_icon"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="@dimen/size_icon"
+            android:layout_height="@dimen/size_icon"
             android:layout_marginEnd="@dimen/small_margin"
             android:layout_marginBottom="@dimen/small_margin"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -86,8 +86,8 @@
 
         <ImageView
             android:id="@+id/www_icon"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="@dimen/size_icon"
+            android:layout_height="@dimen/size_icon"
             android:layout_marginEnd="@dimen/small_margin"
             android:layout_marginBottom="@dimen/small_margin"
             app:layout_constraintBottom_toBottomOf="parent"

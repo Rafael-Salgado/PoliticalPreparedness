@@ -19,15 +19,15 @@ class RepresentativeViewModel : ViewModel() {
     private val _address = MutableLiveData<Address>()
     val address: LiveData<Address>
         get() = _address
-    private val _repResponse = MutableLiveData<RepresentativeResponse>()
-    val repResponse: LiveData<RepresentativeResponse>
+    private val _repResponse = MutableLiveData<RepresentativeResponse?>()
+    val repResponse: LiveData<RepresentativeResponse?>
         get() = _repResponse
 
     fun getRepresentatives(address: Address) {
         _address.value = address
         viewModelScope.launch {
             if (_address.value != null) {
-                _repResponse.value = getResponse(_address.value!!.toFormattedString())!!
+               _repResponse.value = getResponse(_address.value!!.toFormattedString())
             }
         }
     }

@@ -3,4 +3,7 @@
     <dimen name="default_padding">8dp</dimen>
     <dimen name="normal_margin">16dp</dimen>
     <dimen name="small_margin">8dp</dimen>
+    <dimen name="view_height">2dp</dimen>
+    <dimen name="size_img_icon">64dp</dimen>
+    <dimen name="size_icon">48dp</dimen>
 </resources>
